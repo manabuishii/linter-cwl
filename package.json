@@ -1,0 +1,26 @@
+{
+  "name": "linter-cwl",
+  "main": "index.js",
+  "version": "0.1.0",
+  "private": true,
+  "description": "CWL Linter Package",
+  "keywords": ["linter-cwl", "cwl"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/manabuishii/linter-cwl"
+  },
+  "bugs": {
+    "url": "https://github.com/manabuishii/linter-cwl/issues"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.4.0 <2.0.0"
+  },
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "2.0.0": "provideLinter"
+      }
+    }
+  }
+}
