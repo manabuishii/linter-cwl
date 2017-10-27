@@ -5,6 +5,7 @@
   "private": true,
   "description": "CWL Linter Package",
   "keywords": [
+    "lint",
     "linter-cwl",
     "cwl"
   ],
